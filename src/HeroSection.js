@@ -1,8 +1,6 @@
-import React from "react";
-
 function HeroSection() {
     return (
- <>
+ <div className="App">
 
 <section className="hero__area hero__height p-relative d-flex align-items-center"> 
   
@@ -38,7 +36,7 @@ function HeroSection() {
    </div>
 </section>
   
-      </>
+      </div>
     );
   }
 
