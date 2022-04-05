@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-function Hero_section() {
+function HeroSection() {
     return (
  <>
 
@@ -67,4 +67,4 @@ function Hero_section() {
     );
   }
 
-export default Hero_section
+export default HeroSection
