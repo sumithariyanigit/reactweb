@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header  from './Header';
-// import HeroSection from './Components/HeroSection';
+import HeroSection from './Components/HeroSection';
 
 
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
     <Header />
-    {/* <HeroSection /> */}
+    <HeroSection />
     </div>
   );
 }
