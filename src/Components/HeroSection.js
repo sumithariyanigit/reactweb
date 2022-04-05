@@ -1,10 +1,6 @@
-import React from "react";
-
-
-
 function HeroSection() {
     return (
- <>
+ <div className="App">
 
 <section className="hero__area hero__height p-relative d-flex align-items-center"> 
   
@@ -36,34 +32,11 @@ function HeroSection() {
                </div>
             </div>
          </div>
-         {/* <div className="col-xxl-5 col-xl-6 col-lg-6">
-            <div className="hero__thumb text-end ml-220">
-               <div className="hero__thumb-wrapper p-relative ">
-                  <img className="hero-circle" src="assets/img/hero/home-1/hero-circle.png" alt="" />
-
-                  <div className="hero__thumb-shape shape-1">
-                     <img src="assets/img/hero/home-1/hero-1.png" alt="" />
-                  </div>
-                  <div className="hero__thumb-shape shape-2">
-                     <img src="assets/img/hero/home-1/hero-2.png" alt="" />
-                  </div>
-                  <div className="hero__thumb-shape shape-3">
-                     <img src="assets/img/hero/home-1/hero-3.png" alt=""b/>
-                  </div>
-                  <div className="hero__thumb-shape shape-4">
-                     <img src="assets/img/hero/home-1/hero-4.png" alt="" />
-                  </div>
-                  <div className="hero__thumb-shape shape-5">
-                     <img src="assets/img/hero/home-1/hero-5.png" alt="" />
-                  </div>
-               </div>
-            </div>
-         </div> */}
       </div>
    </div>
 </section>
   
-      </>
+      </div>
     );
   }
 
