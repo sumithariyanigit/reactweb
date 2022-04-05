@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import HeroSection from './Components/HeroSection';
+import HeroSection from './HeroSection';
 
 
 
