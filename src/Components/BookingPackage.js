@@ -74,7 +74,7 @@ return (
                     <label className="radio_hours employe_style">
                       <input type="radio" name="employee" id='' />
                       <span>
-                        <img src='assets/images/user.png' alt='user img' />
+                        <img src={process.env.PUBLIC_URL + '/assets/images/user.png'} alt='user img' />
                         <small className='d-block'>John Pauls</small>
                       </span>
                     </label>
@@ -82,7 +82,7 @@ return (
                     <label className="radio_hours employe_style">
                       <input type="radio" name="employee" id='' />
                       <span>
-                        <img src='assets/images/user.png' alt='user img' />
+                        <img src={process.env.PUBLIC_URL + '/assets/images/user.png'} alt='user img' />
                         <small className='d-block'>John Pauls</small>
                       </span>
                     </label>
@@ -90,7 +90,7 @@ return (
                     <label className="radio_hours employe_style">
                       <input type="radio" name="employee" id='' />
                       <span>
-                        <img src='assets/images/user.png' alt='user img' />
+                        <img src={process.env.PUBLIC_URL + '/assets/images/user.png'} alt='user img' />
                         <small className='d-block'>John Pauls</small>
                       </span>
                     </label>
@@ -98,7 +98,7 @@ return (
                     <label className="radio_hours employe_style">
                       <input type="radio" name="employee" id='' />
                       <span>
-                        <img src='assets/images/user.png' alt='user img' />
+                        <img src={process.env.PUBLIC_URL + '/assets/images/user.png'} alt='user img' />
                         <small className='d-block'>John Pauls</small>
                       </span>
                     </label>
