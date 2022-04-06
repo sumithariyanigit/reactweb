@@ -1,10 +1,11 @@
 import React from "react";
 import HeroSection from './Components/HeroSection'
-import FeaturedCategory from './Components/FeaturedCategory';
-import PopularCategory from './Components/PopularCategory';
-import BestOffers from './Components/BestOffers';
-import RecentBlogs from './Components/RecentBlogs';
-import Subscribe from './Components/Subscribe';
+import FeaturedCategory from './Components/FeaturedCategory'
+import PopularCategory from './Components/PopularCategory'
+import BestOffers from './Components/BestOffers'
+import RecentBlogs from './Components/RecentBlogs'
+import Subscribe from './Components/Subscribe'
+import Testimonial from './Components/Testimonial'
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
     <PopularCategory />
     <BestOffers />
     <RecentBlogs />
-
+    <Testimonial />
     <Subscribe />
     </div>
   );
