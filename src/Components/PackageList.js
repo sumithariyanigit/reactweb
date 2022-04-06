@@ -3,7 +3,7 @@ import React from "react" ;
 import { Outlet, Link } from "react-router-dom";
 
 
-function Package() {
+function PackageList() {
     return (
  <>
    <section className="blog__area section_card package_card">
@@ -22,7 +22,7 @@ function Package() {
                        <div className="card_package">
                        <Link to='/package-detail'>
                        <div className="imght">
-                           <img src="assets/images/p1.png" />
+                           <img src={process.env.PUBLIC_URL + '/assets/images/p1.png'} />
                        </div>
                        <h4>Floor</h4>
                        </Link>
@@ -35,7 +35,7 @@ function Package() {
                        <div className="card_package">
                        <Link to='/package-detail'>
                        <div className="imght">
-                           <img src="assets/images/p2.png" />
+                           <img src={process.env.PUBLIC_URL + '/assets/images/p2.png'} />
                        </div>
                        <h4>Sink</h4>
                        </Link>
@@ -47,7 +47,7 @@ function Package() {
                        <div className="card_package">
                        <Link to='/package-detail'>
                        <div className="imght">
-                           <img src="assets/images/p3.png" />
+                           <img src={process.env.PUBLIC_URL + '/assets/images/p3.png'} />
                        </div>
                        <h4>Dusting</h4>
                        </Link>
@@ -60,7 +60,7 @@ function Package() {
                        <div className="card_package">
                        <Link to='/package-detail'>
                        <div className="imght">
-                           <img src="assets/images/p3.png" />
+                           <img src={process.env.PUBLIC_URL + '/assets/images/p3.png'} />
                        </div>
                        <h4>Dusting</h4>
                        </Link>
@@ -73,7 +73,7 @@ function Package() {
                        <div className="card_package">
                        <Link to='/package-detail'>
                        <div className="imght">
-                           <img src="assets/images/p2.png" />
+                           <img src={process.env.PUBLIC_URL + '/assets/images/p2.png'} />
                        </div>
                        <h4>Sink</h4>
                        </Link>
@@ -88,4 +88,4 @@ function Package() {
     );
   }
 
-export default Package
+export default PackageList
