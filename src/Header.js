@@ -23,7 +23,7 @@ function Header() {
                      <div className="main-menu">
                         <nav id="mobile-menu">
                            <ul>
-                              <li><Link to='/testing'>Home</Link></li>
+                              <li><Link to='/about'>About</Link></li>
                               <li><Link to='/'>Blog</Link></li>
                               <li><Link to='/'>Packages</Link></li>
                               <li><Link to='/'>Contact Us</Link></li>

@@ -4,7 +4,7 @@ import App from './App';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import Header from './Header'
 import Footer from './Footer'
-import Testing from './Testing'
+import About from './About'
 
 
 
@@ -14,7 +14,7 @@ const Routing = () => {
       <Header />
       <Switch>
         <Route exact path="/" component={App} />
-        <Route exact path="/testing" component={Testing} />
+        <Route exact path="/about" component={About} />
       </Switch>
       <Footer />
     </Router>
