@@ -13,7 +13,7 @@ import Contact from "./Contact";
 import Profile  from "./Profile";
 import Login from "./Login";
 import SignUser from "./SignUser";
-import FAQ from "./FAQ";
+import FAQ from "./FAQ_C";
 import ResetPassword from "./ResetPassword";
 import ChangePassword from "./ChangePassword";
 import Privacy from "./Privacy";

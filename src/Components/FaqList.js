@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Faq() {
+function FaqList() {
 return (
 <>
  <div className="row">
@@ -51,4 +51,4 @@ return (
 );
 }
 
-export default Faq;
+export default FaqList;

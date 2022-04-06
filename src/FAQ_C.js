@@ -1,5 +1,5 @@
 import React from 'react';
-import Faq from './Components/Faq';
+import FaqList from './Components/FaqList';
 
 function FAQ() {
 return (
@@ -27,7 +27,7 @@ return (
                       </div>
                   </div>
                </div>
-               <Faq />
+               <FaqList />
               
             </div>
     </section>
