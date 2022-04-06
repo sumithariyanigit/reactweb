@@ -1,5 +1,3 @@
-import Header from './Header'
-import Footer from './Footer'
 import HeroSection from './Components/HeroSection'
 import FeaturedCategory from './Components/FeaturedCategory';
 
