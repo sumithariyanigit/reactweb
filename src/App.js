@@ -1,14 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Header  from './Header';
-import HeroSection from './Components/HeroSection';
+import HeroSection from './components/HeroSection';
 
 
 
 function App() {
   return (
     <div className="App">
-    <Header />
     <HeroSection />
     </div>
   );
