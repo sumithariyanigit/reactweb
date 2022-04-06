@@ -13,7 +13,7 @@ const Routing = () => {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/home" component={App} />
+        <Route exact path="/" component={App} />
         <Route exact path="/testing" component={Testing} />
       </Switch>
       <Footer />

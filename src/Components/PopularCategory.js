@@ -1,10 +1,7 @@
 import React from "react" ;
-
-
 function PopularCategory() {
     return (
  <>
-
 <section className="blog__area section_card home_services">
             <div className="container">
                <div className="row">

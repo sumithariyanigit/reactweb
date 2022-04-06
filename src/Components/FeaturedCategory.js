@@ -1,12 +1,8 @@
 import React from "react" ;
 
-
-
 function FeaturedCategory() {
 return (
 <>
-
-
   <section className="blog__area section_card ">
 
     <div className="container pb-60">
