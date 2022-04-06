@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-// import {NavLink} from 'react-router-dom';
-// // import Sidebar from './Components/Sidebar';
+import {NavLink} from 'react-router-dom';
+// import Sidebar from './Components/Sidebar';
 
 function Header() {
 
@@ -23,11 +23,11 @@ function Header() {
                      <div className="main-menu">
                         <nav id="mobile-menu">
                            <ul>
-                              <li><Link to='/about'>About</Link></li>
-                              <li><Link to='/'>Blog</Link></li>
-                              <li><Link to='/'>Packages</Link></li>
-                              <li><Link to='/'>Contact Us</Link></li>
-                              <li><Link to='/'>Login / Sign up</Link></li>
+                              <li><NavLink  activeclassname="active" to='/about'>About</NavLink ></li>
+                              <li><NavLink  to='/blogs'>Blog</NavLink ></li>
+                              <li><NavLink  to='/packages'>Packages</NavLink ></li>
+                              <li><NavLink  to='/contact'>Contact Us</NavLink ></li>
+                              <li><NavLink  to='/login'>Login / Sign up</NavLink ></li>
                               <li><div className="language">
                                  <select>
                                     <option>ENG</option>
