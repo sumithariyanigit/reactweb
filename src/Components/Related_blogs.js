@@ -56,7 +56,7 @@ return (
           <div className="blog_list">
            <div className="imgDiv">
             <a href="#">
-            <img src='assets/images/service4.png' alt='blog img' /> 
+            <img src={process.env.PUBLIC_URL + '/assets/images/service4.png'} alt='blog img' /> 
             </a>  
             </div>   
             <div className="contentText">
@@ -69,7 +69,35 @@ return (
           <div className="blog_list">
            <div className="imgDiv">
             <a href="#">
-            <img src='assets/images/service4.png' alt='blog img' /> 
+            <img src={process.env.PUBLIC_URL + '/assets/images/service4.png'} alt='blog img' /> 
+            </a>  
+            </div>   
+            <div className="contentText">
+            <h5>Cleanliness & Health </h5>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+            <a href="#">Read More..</a>
+            </div>
+          </div>
+
+          
+          <div className="blog_list">
+           <div className="imgDiv">
+            <a href="#">
+            <img src={process.env.PUBLIC_URL + '/assets/images/service4.png'} alt='blog img' /> 
+            </a>  
+            </div>   
+            <div className="contentText">
+            <h5>Cleanliness & Health </h5>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+            <a href="#">Read More..</a>
+            </div>
+          </div>
+
+
+          <div className="blog_list">
+           <div className="imgDiv">
+            <a href="#">
+            <img src={process.env.PUBLIC_URL + '/assets/images/service4.png'} alt='blog img' /> 
             </a>  
             </div>   
             <div className="contentText">
@@ -82,7 +110,7 @@ return (
           <div className="blog_list">
            <div className="imgDiv">
             <a href="#">
-            <img src='assets/images/service4.png' alt='blog img' /> 
+            <img src={process.env.PUBLIC_URL + '/assets/images/service4.png'} alt='blog img' /> 
             </a>  
             </div>   
             <div className="contentText">
@@ -95,20 +123,7 @@ return (
           <div className="blog_list">
            <div className="imgDiv">
             <a href="#">
-            <img src='assets/images/service4.png' alt='blog img' /> 
-            </a>  
-            </div>   
-            <div className="contentText">
-            <h5>Cleanliness & Health </h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
-            <a href="#">Read More..</a>
-            </div>
-          </div>
-
-          <div className="blog_list">
-           <div className="imgDiv">
-            <a href="#">
-            <img src='assets/images/service4.png' alt='blog img' /> 
+            <img src={process.env.PUBLIC_URL + '/assets/images/service4.png'} alt='blog img' /> 
             </a>  
             </div>   
             <div className="contentText">
