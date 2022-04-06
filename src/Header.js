@@ -13,7 +13,7 @@ function Header() {
                <div className="row align-items-center">
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-6">
                      <div className="logo">
-                        <Link to='/' className='homelogo'>
+                        <Link to='/home' className='homelogo'>
                         <img src={process.env.PUBLIC_URL + '/assets/images/logo.png'} alt="logo" width='100px' /> 
                         <img src={process.env.PUBLIC_URL + '/assets/images/wlogo.png'} alt="logo" width='100px' /> 
                         </Link>
