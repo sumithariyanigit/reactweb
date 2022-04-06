@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import {NavLink} from 'react-router-dom';
-// import Sidebar from './Components/Sidebar';
+import Sidebar from './Components/Sidebar';
 
 function Header() {
 
@@ -43,7 +43,7 @@ function Header() {
                      </div>
                   </div>
                   <div className='mobile_btn'>
-                        {/* <Sidebar /> */}
+                        <Sidebar />
                         </div>               
                </div>
             </div>
