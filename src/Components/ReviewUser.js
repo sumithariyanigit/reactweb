@@ -8,18 +8,18 @@ return (
       <div className="col-lg-12">
         <div className="review-list">
           <div className="userImg">
-            <img src="assets/images/user.png" />
+            <img src={process.env.PUBLIC_URL + '/assets/images/user.png'} />
           </div>
           <div>
             <div className="reviewUser">
               <h3>John Pauls</h3>
-              <div class="rating">
+              <div className="rating">
                 <ul>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className=""><i class="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className=""><i className="icon_star"></i></li>
                 </ul>
               </div>
             </div>
@@ -30,7 +30,7 @@ return (
                 but also the leap into Contrary to popular belief, Lorem Ipsum is not simply
               </p>
               <div className='certified'>
-                <i class="fad fa-badge-check"></i> certified user
+                <i className="fad fa-badge-check"></i> certified user
               </div>
 
             </div>
@@ -39,18 +39,18 @@ return (
         </div>
         <div className="review-list">
           <div className="userImg">
-            <img src="assets/images/user.png" />
+            <img src={process.env.PUBLIC_URL + '/assets/images/user.png'} />
           </div>
           <div>
             <div className="reviewUser">
               <h3>John Pauls</h3>
-              <div class="rating">
+              <div className="rating">
                 <ul>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className=""><i class="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className=""><i className="icon_star"></i></li>
                 </ul>
               </div>
             </div>
@@ -61,7 +61,7 @@ return (
                 but also the leap into Contrary to popular belief, Lorem Ipsum is not simply
               </p>
               <div className='certified'>
-                <i class="fad fa-badge-check"></i> certified user
+                <i className="fad fa-badge-check"></i> certified user
               </div>
             </div>
 
@@ -70,18 +70,18 @@ return (
         </div>
         <div className="review-list">
           <div className="userImg">
-            <img src="assets/images/user.png" />
+            <img src={process.env.PUBLIC_URL + '/assets/images/user.png'} />
           </div>
           <div>
             <div className="reviewUser">
               <h3>John Pauls</h3>
-              <div class="rating">
+              <div className="rating">
                 <ul>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className=""><i class="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className=""><i className="icon_star"></i></li>
                 </ul>
               </div>
             </div>
@@ -92,7 +92,7 @@ return (
                 but also the leap into Contrary to popular belief, Lorem Ipsum is not simply
               </p>
               <div className='certified'>
-                <i class="fad fa-badge-check"></i> certified user
+                <i className="fad fa-badge-check"></i> certified user
               </div>
             </div>
 
@@ -101,18 +101,18 @@ return (
         </div>
         <div className="review-list">
           <div className="userImg">
-            <img src="assets/images/user.png" />
+            <img src={process.env.PUBLIC_URL + '/assets/images/user.png'} />
           </div>
           <div>
             <div className="reviewUser">
               <h3>John Pauls</h3>
-              <div class="rating">
+              <div className="rating">
                 <ul>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className=""><i class="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className=""><i className="icon_star"></i></li>
                 </ul>
               </div>
             </div>
@@ -123,7 +123,7 @@ return (
                 but also the leap into Contrary to popular belief, Lorem Ipsum is not simply
               </p>
               <div className='certified'>
-                <i class="fad fa-badge-check"></i> certified user
+                <i className="fad fa-badge-check"></i> certified user
               </div>
             </div>
 
@@ -132,18 +132,18 @@ return (
         </div>
         <div className="review-list">
           <div className="userImg">
-            <img src="assets/images/user.png" />
+            <img src={process.env.PUBLIC_URL + '/assets/images/user.png'} />
           </div>
           <div>
             <div className="reviewUser">
               <h3>John Pauls</h3>
-              <div class="rating">
+              <div className="rating">
                 <ul>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className="active"><i class="icon_star"></i></li>
-                  <li className=""><i class="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className="active"><i className="icon_star"></i></li>
+                  <li className=""><i className="icon_star"></i></li>
                 </ul>
               </div>
             </div>
@@ -154,7 +154,7 @@ return (
                 but also the leap into Contrary to popular belief, Lorem Ipsum is not simply
               </p>
               <div className='certified'>
-                <i class="fad fa-badge-check"></i> certified user
+                <i className="fad fa-badge-check"></i> certified user
               </div>
             </div>
 

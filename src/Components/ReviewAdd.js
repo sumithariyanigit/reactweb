@@ -19,9 +19,9 @@ function ReviewAdd() {
                             onChange={ratingChanged}
                             size={30}
                             isHalf={true}
-                            emptyIcon={<i class="far fa-star"></i>}
-                            halfIcon={<i class="fas fa-star-half-alt"></i>}
-                            fullIcon={<i class="far fa-star"></i>}
+                            emptyIcon={<i className="far fa-star"></i>}
+                            halfIcon={<i className="fas fa-star-half-alt"></i>}
+                            fullIcon={<i className="far fa-star"></i>}
                             activeColor="#ffd700">
                     </ReactStars>
                               </div>

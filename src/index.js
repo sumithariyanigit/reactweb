@@ -7,7 +7,7 @@ import Footer from './Footer'
 import About from './About'
 import Blogs from "./Blogs";
 import Packages from "./Packages";
-// import PackageDetail from "./PackageDetail";
+import PackageDetail from "./PackageDetail";
 // import BookPackage from "./BookPackage";
 // import Contact from "./Contact";
 // import Profile  from "./Profile";
@@ -25,12 +25,12 @@ const Routing = () => {
         <Route exact path="/about" component={About} />
         <Route exact path="/blogs" component={Blogs} />
         <Route exact path="/packages" component={Packages} />
-          {/* <Route exact path="Package-detail" component={PackageDetail} />
-          <Route exact path="boook-package" component={BookPackage} />
-          <Route exact path="contact" component={Contact} />
-          <Route exact path="profile" component={Profile} />
-          <Route exact path="login" component={Login} />
-          <Route exact path="signup" component={SignUp} /> */}
+        <Route exact path="/Package-detail" component={PackageDetail} />
+        {/* <Route exact path="boook-package" component={BookPackage} /> */}
+        {/* <Route exact path="contact" component={Contact} /> */}
+        {/* <Route exact path="profile" component={Profile} /> */}
+        {/* <Route exact path="login" component={Login} /> */}
+        {/* <Route exact path="signup" component={SignUp} /> */}
       </Switch>
       <Footer />
     </Router>

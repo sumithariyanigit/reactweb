@@ -1,7 +1,5 @@
-import React,  { useEffect } from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import { Outlet, Link } from "react-router-dom";
+import React, { useEffect } from 'react';
+import { Link } from "react-router-dom";
 import OtherPackageCat from './Components/OtherPackageCat';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
@@ -27,12 +25,7 @@ function PackageDetail() {
  
     return (
        <>
-<Header />
-     
-<main>
-
-
-<section className="about__area pb-45 pt-45 p-relative border-style">
+       <section className="about__area pb-45 pt-45 p-relative border-style">
             <div className="container">
                <div className="row ">
                   <div className="col-lg-12">
@@ -62,9 +55,6 @@ function PackageDetail() {
 </section>  
 
 <OtherPackageCat />
-
-<Footer />
-</main>
 
     </>
   );
