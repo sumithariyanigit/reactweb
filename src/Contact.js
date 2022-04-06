@@ -1,16 +1,11 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import { Outlet, Link } from "react-router-dom";
 // import GoogleMap from './Components/GoogleMap';
 import SendMessage from './Components/SendMessage';
 
 function Contact() {
  return (
-    <>
-<Header />
-  
-<main>
+    <div>
+
      
 <section className="hero__banner p-relative d-flex align-items-center"> 
   <div className="container">
@@ -72,14 +67,10 @@ function Contact() {
 
 {/* <GoogleMap /> */}
 
- <Footer />
 
 
 
-
-</main>
-
-    </>
+    </div>
   );
 }
 

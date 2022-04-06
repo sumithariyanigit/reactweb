@@ -33,7 +33,7 @@ function SendMessage() {
 
                 
                 <div className='col-lg-12 mt-30 text-center'>
-                  <button type="submit" class="w-btn w-btn-blue w-btn-blue-header btnpay mb-0" >Send</button>
+                  <button type="submit" className="w-btn w-btn-blue w-btn-blue-header btnpay mb-0" >Send</button>
                 </div>
 
               </div>
