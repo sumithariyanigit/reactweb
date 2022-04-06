@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react" ;
 
-function Faq() {
-return (
-<>
- <div className="row">
-     <div className='col-lg-12'>
-               <div className="faq__wrapper faq_style wow fadeInUp" data-wow-delay=".3s" >
+
+function PackageFaq() {
+    return (
+        <>
+        <div className="row justify-content-center mt-20 mb-20">
+        <div className="col-lg-10">
+        <div className="faq__wrapper wow fadeInUp" data-wow-delay=".3s" >
                         <div className="accordion" id="accordionExample">
                            <div className="accordion-item">
                              <h2 className="accordion-header" id="headingOne">
@@ -45,10 +46,10 @@ return (
                            </div>
                          </div>
                      </div>
-                     </div>
-               </div>
-</>
+        </div>
+        </div>
+        </>
 );
 }
 
-export default Faq;
+export default PackageFaq

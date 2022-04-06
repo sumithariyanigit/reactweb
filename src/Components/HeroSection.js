@@ -20,7 +20,7 @@ function HeroSection() {
                     </span>
                     <div className="d-inline">
                      <div className='join-from'>
-                     <input type="text" placeholder="Search For Services" />
+                     <input type="text" placeholder="Search for services" />
                        <button type="submit" className="w-btn w-btn-2"><i className="far fa-search"></i></button>
                      </div>
                      <div className="hero__search-info">

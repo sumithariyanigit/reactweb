@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Login() {
 return (
@@ -31,7 +31,7 @@ return (
                 <div className='col-lg-12 mt-50 text-center'>
                 <button type="submit" className="w-btn w-btn-blue w-btn-blue-header btnpay" href="">Login</button>
                  <div className='text-center'>
-                  <a href='#' className='title_user mt-30'>Forgot Password ?</a>
+                  <Link to='/forgotpassword' className='title_user mt-30'>Forgot Password ?</Link>
                   </div>
                 </div>
 

@@ -11231,3 +11231,42 @@ outline: none !important;
   font-size: 14px;
   color: gray;
 }
+
+.faq_style {
+  border-top: 3px solid #040405;
+  box-shadow: 0px 30px 70px 0px rgb(11 6 70 / 8%), inset 0px 3px 0px 0px rgb(47 128 237 / 0%);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: white;
+}
+
+.m_text
+{
+  display: none;
+}
+.backto
+{
+  font-size: 20px;
+  text-decoration: underline;
+  color: #126db6;
+}
+.showpass label
+{
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  cursor: pointer;
+  color: #000000d1;
+}
+.showpass input {
+  width: 18px;
+  margin-right: 0.5rem;
+  height: 18px;
+  margin-top: 3px;
+  margin-left: 0.5rem;
+}
+.showpass span
+{
+  margin-top: 2px;
+}

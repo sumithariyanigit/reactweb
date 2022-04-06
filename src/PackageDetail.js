@@ -5,7 +5,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import ReviewUser from './Components/ReviewUser';
 import ReviewAdd from './Components/ReviewAdd';
-import FAQ from './Components/FAQ';
+import PackageFaq from './Components/PackageFaq';
 import OtherPackageCat from './Components/OtherPackageCat';
 
 
@@ -47,7 +47,7 @@ function PackageDetail() {
 
                     </TabPanel>
                     <TabPanel>
-                   <FAQ />
+                   <PackageFaq />
                     </TabPanel>
                 </Tabs>
                    </div>

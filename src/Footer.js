@@ -1,4 +1,5 @@
 import React from "react" ;
+import { Link } from "react-router-dom";
 
 
 function Footer() {
@@ -27,12 +28,12 @@ function Footer() {
                               Follow us on
                            </h5>
                            <h5>
-                           <a href="#" target='blank'><i className="fab fa-google-plus-g"></i></a>
-                           <a href="#" target='blank'><i className="fab fa-twitter"></i></a>
-                           <a href="#" target='blank'><i className="fab fa-facebook-f"></i></a>
-                           <a href="#" target='blank'><i className="fab fa-instagram"></i></a>
-                           <a href="#" target='blank'><i className="fab fa-youtube"></i></a>
-                           <a href="#" target='blank'><i className="fab fa-linkedin-in"></i></a>
+                           <Link to='/' target='blank'><i className="fab fa-google-plus-g"></i></Link>
+                           <Link to='/' target='blank'><i className="fab fa-twitter"></i></Link>
+                           <Link to='/' target='blank'><i className="fab fa-facebook-f"></i></Link>
+                           <Link to='/' target='blank'><i className="fab fa-instagram"></i></Link>
+                           <Link to='/' target='blank'><i className="fab fa-youtube"></i></Link>
+                           <Link to='/' target='blank'><i className="fab fa-linkedin-in"></i></Link>
                            </h5>
                         </div>
                         <div className="faddress mb-3">
@@ -40,16 +41,16 @@ function Footer() {
                         </div>
                         <div className="fnumber mb-3">
                           <div>
-                            <a href="#">123457890,</a>
-                            <a href="#">123457890,</a>
+                            <Link to='/'>123457890,</Link>
+                            <Link to='/'>123457890,</Link>
                            </div>
                            <div>
-                            <a href="#">123457890,</a>
-                            <a href="#">123457890,</a>
+                            <Link to='/'>123457890,</Link>
+                            <Link to='/'>123457890,</Link>
                            </div>
                         </div>
                         <div className="fdemail">
-                       <a href="#">irangatecleaningsearvice@gmail.com</a>
+                       <Link to='/'>irangatecleaningsearvice@gmail.com</Link>
                         </div>
                      </div>
                   </div>
@@ -61,9 +62,9 @@ function Footer() {
                         <div className="footer__widget-content">
                            <div className="footer__link footer__link-2">
                               <ul>
-                                 <li><a href="#">FAQ</a></li>
-                                 <li><a href="#">Terms</a></li>
-                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><Link to='/faq'>FAQ</Link></li>
+                                 <li><Link to='/terms'>Terms</Link></li>
+                                 <li><Link to='/privacy'>Privacy Policy</Link></li>
                               </ul>
                            </div>
                         </div>
@@ -73,9 +74,9 @@ function Footer() {
                         <div className="footer__widget-content">
                            <div className="footer__link footer__link-2">
                               <ul>
-                                 <li><a href="#">About us</a></li>
-                                 <li><a href="#">Customer Service</a></li>
-                                 <li><a href="#">Company</a></li>
+                                 <li><Link to='/'>About us</Link></li>
+                                 <li><Link to='/'>Customer Service</Link></li>
+                                 <li><Link to='/'>Company</Link></li>
                               </ul>
                            </div>
                         </div>
@@ -89,10 +90,10 @@ function Footer() {
                         <div className="footer__widget-content">
                            <div className="footer__link footer__link-2">
                               <ul>
-                                 <li><a href="#">Shopping Guide</a></li>
-                                 <li><a href="#">Blog</a></li>
-                                 <li><a href="#">Company</a></li>
-                                 <li><a href="#">Contact Us</a></li>
+                                 <li><Link to='/'>Shopping Guide</Link></li>
+                                 <li><Link to='/'>Blog</Link></li>
+                                 <li><Link to='/'>Company</Link></li>
+                                 <li><Link to='/'>Contact Us</Link></li>
                               </ul>
                            </div>
                            <img src={process.env.PUBLIC_URL + '/assets/images/logo.png'} alt="" style={{'maxWidth' : '150px'}} /> 
@@ -108,7 +109,7 @@ function Footer() {
                   <div className="row">
                      <div className="col-xxl-12 wow fadeInUp" data-wow-delay=".5s">
                         <div className="footer__copyright-wrapper footer__copyright-wrapper-2 text-center">
-                           <p>© 2022 <span>Iron Gate Cleaning Service</span> .All Rights Reserved. <a href="#"></a></p>
+                           <p>© 2022 <span>Iron Gate Cleaning Service</span> .All Rights Reserved. <Link to='/'></Link></p>
                         </div>
                      </div>
                   </div>
