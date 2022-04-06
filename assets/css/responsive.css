@@ -103,6 +103,7 @@
     .hero__search .w-200 {
         width: 100%;
         background: #0000007d;
+        color: #ffffff;
         border-bottom: 3px solid #2196f361 !important;
         border: none;
         margin-bottom: 1rem;
@@ -308,8 +309,14 @@
 {
     max-height: 470px;
 }
-
-
+.d_text
+{
+  display: none;
+}
+.m_text
+{
+    display: block;
+}
 
 
 }
