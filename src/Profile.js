@@ -1,6 +1,4 @@
 import React,  { useEffect } from 'react';
-import Header from './Header';
-import Footer from './Footer';
 import { Outlet, Link } from "react-router-dom";
 
 function Profile() {
@@ -15,7 +13,7 @@ function Profile() {
 
     return (
      <>
-    <Header />
+
 
  <section className="border-style pad-12"> 
   <div className="container">
@@ -23,7 +21,7 @@ function Profile() {
         <div className="col-lg-12">
          <div className='userImg'>
              <div className='imgbox'>
-             <img src='assets/images/profile.png' />
+             <img src={process.env.PUBLIC_URL + '/assets/images/profile.png'} />
              </div>
              <div className=''>
              <h4>John pauls</h4>
@@ -57,7 +55,6 @@ function Profile() {
   </div>
 </section>
 
-    <Footer />
      </>
     );
 

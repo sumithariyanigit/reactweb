@@ -1,5 +1,5 @@
 import React from 'react';
-// import GoogleMap from './Components/GoogleMap';
+import GoogleMap from './Components/GoogleMap';
 import SendMessage from './Components/SendMessage';
 
 function Contact() {
@@ -65,7 +65,7 @@ function Contact() {
    </div>
 </section>
 
-{/* <GoogleMap /> */}
+<GoogleMap />
 
 
 

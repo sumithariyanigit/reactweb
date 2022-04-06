@@ -10,9 +10,9 @@ import Packages from "./Packages";
 import PackageDetail from "./PackageDetail";
 import BookPackage from "./BookPackage";
 import Contact from "./Contact";
-// import Profile  from "./Profile";
+import Profile  from "./Profile";
 import Login from "./Login";
-// import SignUp from "./SignUp";
+import SignUser from "./SignUser";
 
 
 
@@ -29,9 +29,9 @@ const Routing = () => {
         <Route exact path="/Package-detail" component={PackageDetail} />
         <Route exact path="/boook-package" component={BookPackage} />
         <Route exact path="/contact" component={Contact} />
-        {/* <Route exact path="/profile" component={Profile} /> */}
+        <Route exact path="/profile" component={Profile} />
         <Route exact path="/login" component={Login} />
-        {/* <Route exact path="/signup" component={SignUp} /> */}
+        <Route exact path="/signup" component={SignUser} />
       </Switch>
       <Footer />
     </Router>
