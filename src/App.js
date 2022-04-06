@@ -1,4 +1,6 @@
 import React from "react";
+import Header from './Header'
+import Footer from './Footer'
 import HeroSection from './Components/HeroSection'
 import FeaturedCategory from './Components/FeaturedCategory'
 import PopularCategory from './Components/PopularCategory'
@@ -11,6 +13,7 @@ import Testimonial from './Components/Testimonial'
 function App() {
   return (
     <div className="App">
+    <Header />
     <HeroSection />
     <FeaturedCategory />
     <PopularCategory />
@@ -18,6 +21,7 @@ function App() {
     <RecentBlogs />
     <Testimonial />
     <Subscribe />
+    <Footer />
     </div>
   );
 }
