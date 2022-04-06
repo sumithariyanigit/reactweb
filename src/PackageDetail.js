@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
-import OtherPackageCat from './Components/OtherPackageCat';
+import Package_detail_slider from './Components/Package_detail_slider';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import ReviewUser from './Components/ReviewUser';
 import ReviewAdd from './Components/ReviewAdd';
 import FAQ from './Components/FAQ';
+import OtherPackageCat from './Components/OtherPackageCat';
 
 
 const ratingChanged = (newRating) => {
@@ -25,6 +26,7 @@ function PackageDetail() {
  
     return (
        <>
+       <Package_detail_slider />
        <section className="about__area pb-45 pt-45 p-relative border-style">
             <div className="container">
                <div className="row ">
