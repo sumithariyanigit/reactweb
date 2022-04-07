@@ -45,7 +45,7 @@ function Profile() {
          </Link>
          </div>
          <div className='col-lg-4 text-center'>
-             <Link to='' className='usercard'>
+             <Link to='/your-reviews' className='usercard'>
              <h4>11</h4>
              <h5>Your Review</h5>
          </Link>

@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import Header from './Header'
 import Footer from './Footer'
+
+// Iron Gate Cleaning Services Pages
+import App from './App';
 import About from './About'
 import Blogs from "./Blogs";
 import Packages from "./Packages";
@@ -20,6 +23,7 @@ import Privacy from "./Privacy";
 import Terms from "./Terms";
 import PreviousBooking from "./PreviousBooking";
 import TotalPayment from "./TotalPayment";
+import YourReviews from "./YourReviews";
 
 
 
@@ -48,7 +52,8 @@ const Routing = () => {
         <Route exact path="/terms" component={Terms} />
         <Route exact path="/previous-booking" component={PreviousBooking} />
         <Route exact path="/total-payment" component={TotalPayment} />
-
+        <Route exact path="/your-reviews" component={YourReviews} />
+      
 
       </Switch>
       <Footer />

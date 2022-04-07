@@ -1,8 +1,8 @@
 import React,  { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import PaymentList from './Components/PaymentList'
+import YourReviewList from './Components/YourReviewList'
 
-function TotalPayment() {
+function YourReview(){
+    
     useEffect( () => {
         const body = document.querySelector("body");
         document.body.classList.add("body_black");
@@ -10,7 +10,9 @@ function TotalPayment() {
           body.classList.remove("body_black");
         }
       } );
-    return (
+
+    return(
+
         <>
 <section className="pb-50 pt-50 p-relative border-style total_list_payment">
             <div className="container">
@@ -18,14 +20,16 @@ function TotalPayment() {
                   <div className="col-lg-12">
                      <div className="section__title-wrapper section__title-wrapper-5 text-center mb-25">
                         <h1 className="previous_title section__title-5 section__title-5-p mb-15 text-start">
-                          <i className="fal fa-shield-check"></i> Total Payment</h1>
+                          <img style={{ marginTop : '-1rem'}} className='mr-10' src={process.env.PUBLIC_URL + '/assets/images//reviews.jpg'} alt='reviews icon' /> Your Reviews</h1>
                       </div>
                   </div>
                </div>
-              <PaymentList />
+               <YourReviewList />
             </div>
     </section>
         </>
-   );
- }
-export default TotalPayment;
+
+  );
+}
+
+export default YourReview;
