@@ -1,5 +1,5 @@
 import React,  { useEffect } from 'react';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Profile() {
 
@@ -33,22 +33,22 @@ function Profile() {
 
      <div className='row mt-90'>
          <div className='col-lg-4 text-center'>
-             <div className='usercard'>
+             <Link to='/previous-booking' className='usercard'>
              <h4>05</h4>
              <h5>Previous Booking</h5>
-         </div>
+            </Link>
          </div>
          <div className='col-lg-4 text-center'>
-             <div className='usercard'>
+             <Link to='/total-payment' className='usercard'>
              <h4>AED 104</h4>
              <h5>Total Payment</h5>
-         </div>
+         </Link>
          </div>
          <div className='col-lg-4 text-center'>
-             <div className='usercard'>
+             <Link to='' className='usercard'>
              <h4>11</h4>
              <h5>Your Review</h5>
-         </div>
+         </Link>
          </div>
      </div>
 

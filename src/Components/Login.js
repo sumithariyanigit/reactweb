@@ -8,7 +8,7 @@ return (
     <div className="container">
       <div className="row justify-content-center">
         <div className='col-lg-9 cm-lg-9'>
-          <form action='/'>
+          <form action='/profile'>
             <div className='card_book'>
               <div className='header-small'>
                 <h1>Login</h1>
@@ -29,7 +29,8 @@ return (
 
 
                 <div className='col-lg-12 mt-50 text-center'>
-                <button type="submit" className="w-btn w-btn-blue w-btn-blue-header btnpay" href="">Login</button>
+                <Link to='/profile' className='w-btn w-btn-blue w-btn-blue-header btnpay'>Login</Link>
+                {/* <button type="submit" className="w-btn w-btn-blue w-btn-blue-header btnpay">Login</button> */}
                  <div className='text-center'>
                   <Link to='/forgotpassword' className='title_user mt-30'>Forgot Password ?</Link>
                   </div>

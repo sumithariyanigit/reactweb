@@ -13,11 +13,15 @@ import Contact from "./Contact";
 import Profile  from "./Profile";
 import Login from "./Login";
 import SignUser from "./SignUser";
-import FAQ from "./FAQ_C";
+import FAQ from "./FAQ";
 import ResetPassword from "./ResetPassword";
 import ChangePassword from "./ChangePassword";
 import Privacy from "./Privacy";
 import Terms from "./Terms";
+import PreviousBooking from "./PreviousBooking";
+import TotalPayment from "./TotalPayment";
+
+
 
 
 
@@ -42,6 +46,9 @@ const Routing = () => {
         <Route exact path="/changepassword" component={ChangePassword} />
         <Route exact path="/privacy" component={Privacy} />
         <Route exact path="/terms" component={Terms} />
+        <Route exact path="/previous-booking" component={PreviousBooking} />
+        <Route exact path="/total-payment" component={TotalPayment} />
+
 
       </Switch>
       <Footer />
