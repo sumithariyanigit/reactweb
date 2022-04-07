@@ -11099,6 +11099,7 @@ outline: none !important;
 {
   overflow: hidden;
   position: relative;
+  transition: 0.3s;
   border-radius: 10px;
   box-shadow: 0px 20px 30px 0px rgb(11 6 70 / 3%);
   border: 2px solid #126db6;
@@ -11109,6 +11110,10 @@ outline: none !important;
   justify-content: center;
   width: 70%;
   align-items: center;
+}
+.usercard:hover
+{
+  transform: scale(1.1);
 }
 
 .usercard::after
@@ -11269,4 +11274,112 @@ outline: none !important;
 .showpass span
 {
   margin-top: 2px;
+}
+.list_previous {
+  display: inline-block;
+  width: 50%;
+  padding: 13px;
+  margin-bottom: 0px;
+}
+.list_previous .previous {
+  display: flex;
+  padding: 10px 5rem 10px 2rem;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 0;
+  position: relative;
+}
+.list_previous .previous .w-btn-3 {
+  padding: 0 24px;
+  height: 31px;
+  box-shadow: none;
+  line-height: 32px;
+  color: black !important;
+  font-size: 14px;
+  background: #a9a9a961;
+  border: none;
+}
+.list_previous .previous::after {
+  content: '';
+  position: absolute;
+  width: 107px;
+  background-image: url(../images/border3.png);
+  height: 88px;
+  right: -29px;
+  top: -12px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.list_previous .previous .actbn
+{
+  padding: 0 40px;
+    height: 31px;
+    line-height: 32px;
+    color: black !important;
+    font-size: 14px;
+    background: greenyellow;
+    border: none;
+}
+
+.previous h4{
+  font-weight: 400;
+  font-size: 21px;
+}
+.previous h6 
+{
+  font-weight: 400;
+    font-size: 17px;
+}
+
+.previous_title i
+{
+  font-size: 4rem;
+  margin-top: -7px;
+  font-weight: 400;
+  margin-right: 1rem;
+}
+.previous_title
+{
+  color: black;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.filter
+{
+  width: 60%;
+  display: flex;
+  padding: 1rem 0.7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.filter .react-datepicker-wrapper input
+{
+  background: transparent;
+  font-size: 19px;
+  font-weight: 400;
+  padding: 0.8rem;
+  color: #000000b3;
+  border: 1px solid #6d6a6a;
+  border-radius: 6px;
+  height: 43px;
+}
+
+.btnsubmit 
+{
+  width: 165px;
+  border-color: #126db6;
+    background: #126DB6;
+}
+
+.total_list_payment .list-total
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
