@@ -39,7 +39,7 @@ return (
       />
       </div>
       <div>
-         <label className='d-block'>.</label>
+         <label className='d-block m-none'>.</label>
         <button type="submit" className="btn btnsubmit w-btn">Submit</button>
         </div>
       </div>

@@ -15,7 +15,7 @@ function YourReview(){
     return(
 
         <>
-      <section className="pb-50 pt-50 p-relative border-style total_list_payment">
+      <section className="pb-50 pt-50 p-relative border-style">
             <div className="container">
             <div className="row">
                   <div className="col-lg-12">

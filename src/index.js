@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import {Redirect} from  "react-router-dom"
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import Header from './Header'
 import Footer from './Footer'
@@ -25,6 +25,7 @@ import PreviousBooking from "./PreviousBooking";
 import TotalPayment from "./TotalPayment";
 import YourReviews from "./YourReviews";
 import ScrollToTop from "./ScrollToTop";
+import UpdateProfile from "./UpdateProfile";
 
 
 
@@ -36,6 +37,10 @@ const Routing = () => {
        <ScrollToTop />
       <Header />
       <Switch>
+       {/* <Redirect from="/" to="/home" />
+        <Route path="/">
+          <App />
+        </Route> */}
         <Route exact path="/" component={App} />
         <Route exact path="/home" component={App} />
         <Route exact path="/about" component={About} />
@@ -55,8 +60,7 @@ const Routing = () => {
         <Route exact path="/previous-booking" component={PreviousBooking} />
         <Route exact path="/total-payment" component={TotalPayment} />
         <Route exact path="/your-reviews" component={YourReviews} />
-      
-
+        <Route exact patth="/update-profile" component={UpdateProfile} />
       </Switch>
       <Footer />
     </Router>
