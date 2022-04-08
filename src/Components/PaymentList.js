@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import DeclinedPaymentModal from "./DeclinedPaymentModal";
+// import SuccessPaymentModal from "./SuccessPaymentModal";
+
+
 
 function PaymentList(){
     return(
@@ -35,6 +39,12 @@ function PaymentList(){
                         <div className='d-inline-flex'>
                         <Link to='#' className='btn  w-btn w-btn-white mr-20'>Edit Service</Link>
                         <Link to='#' className='btn btnsubmit w-btn'>Pay Now</Link>
+                       
+                        {/* <div>
+                        <SuccessPaymentModal /> 
+                        <DeclinedPaymentModal />
+                        </div> */}
+                        
                         </div>
                      </li>
                  </ul>

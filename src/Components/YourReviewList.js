@@ -1,7 +1,8 @@
 import React,  { useState } from 'react';
 import { Link } from "react-router-dom";
 import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
+import "react-datepicker/dist/react-datepicker.css"; 
+import EditReviews from "./EditReviews";
 
 
 
@@ -42,7 +43,9 @@ return (
         <button type="submit" className="btn btnsubmit w-btn">Submit</button>
         </div>
       </div>
-    
+
+      
+
     </form>
   </div>
 </div>
@@ -64,7 +67,7 @@ return (
       <i className="fas fa-star active"></i>
       <i className="fas fa-star"></i>
       <div className='editreview'>
-      <Link to='#'><i className="fal fa-edit"></i></Link>
+      <EditReviews />
       </div>
       </div>
      
@@ -83,7 +86,7 @@ return (
       <i className="fas fa-star active"></i>
       <i className="fas fa-star"></i>
       <div className='editreview'>
-      <Link to='#'><i className="fal fa-edit"></i></Link>
+      <EditReviews />
       </div>
       </div>
     </div>   
@@ -101,7 +104,7 @@ return (
       <i className="fas fa-star active"></i>
       <i className="fas fa-star active"></i>
       <div className='editreview'>
-      <Link to='#'><i className="fal fa-edit"></i></Link>
+      <EditReviews />
       </div>
       </div>
     </div>   
@@ -119,7 +122,7 @@ return (
       <i className="fas fa-star active"></i>
       <i className="fas fa-star"></i>
       <div className='editreview'>
-      <Link to='#'><i className="fal fa-edit"></i></Link>
+      <EditReviews />
       </div>
       </div>
     </div>   
@@ -137,7 +140,7 @@ return (
       <i className="fas fa-star active"></i>
       <i className="fas fa-star active"></i>
       <div className='editreview'>
-      <Link to='#'><i className="fal fa-edit"></i></Link>
+      <EditReviews />
       </div>
       </div>
     </div>   
@@ -155,7 +158,7 @@ return (
       <i className="fas fa-star"></i>
       <i className="fas fa-star"></i>
       <div className='editreview'>
-      <Link to='#'><i className="fal fa-edit"></i></Link>
+      <EditReviews />
       </div>
       </div>
     </div>   

@@ -1,5 +1,6 @@
 import React,  { useEffect } from 'react';
-import YourReviewList from './Components/YourReviewList'
+import YourReviewList from './Components/YourReviewList';
+
 
 function YourReview(){
     
@@ -14,7 +15,7 @@ function YourReview(){
     return(
 
         <>
-<section className="pb-50 pt-50 p-relative border-style total_list_payment">
+      <section className="pb-50 pt-50 p-relative border-style total_list_payment">
             <div className="container">
             <div className="row">
                   <div className="col-lg-12">
@@ -25,6 +26,7 @@ function YourReview(){
                   </div>
                </div>
                <YourReviewList />
+               
             </div>
     </section>
         </>

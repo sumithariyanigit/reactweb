@@ -34,7 +34,8 @@ function ResetPassword() {
 
 
                 <div className='col-lg-12 mt-50 text-center'>
-                <button type="submit" className="w-btn w-btn-blue w-btn-blue-header btnpay" href="">Continue</button>
+                  <Link to='/changepassword' className="w-btn w-btn-blue w-btn-blue-header btnpay">Continue</Link>
+                {/* <button type="submit" className="w-btn w-btn-blue w-btn-blue-header btnpay" href="">Continue</button> */}
                  <div className='text-center'>
                   <Link to='/login' className='title_user mt-30 backto'>Back to login</Link>
                   </div>
