@@ -12892,10 +12892,9 @@ p {
 .sd-body ul li .sd-link {
   display: inline-block;
   width: 100%;
-  padding: 10px 16px;
-  color: #475f7b;
-  background-color: #e5e8ec;
-  border-radius: 4px;
+  padding: 7px 16px;
+  color: #ffffff;
+  border-bottom: 1px solid #e5e8ec40;
   cursor: pointer;
   text-decoration: none;
 }
@@ -13233,3 +13232,145 @@ body {
   margin-top: 1rem;
   font-weight: normal;
 }
+
+.update_profile
+{
+   padding:3rem 0rem;
+}
+.update_profile .input_type
+{
+  margin-bottom: 20px;
+}
+.update_profile .input_type input
+{
+  width: 100%;
+  border-radius: 7px;
+  border: 1px solid #ddd;
+  box-shadow: inset 0.2rem 0.4rem 0.4rem #97979775, inset -0.2rem -0.2rem 0.5rem #f2f2f2;
+  height: 50px;
+  outline: none;
+  padding: 1rem;
+  font-size: 20px;
+  color: gray;
+}
+.update_profile .input_type input::placeholder
+{
+  color: gray;
+  font-size: 20px;
+}
+.input_type  select
+{
+  width: 20%;
+  border-radius: 7px;
+  border: 1px solid #ddd;
+  box-shadow: inset 0.2rem 0.4rem 0.4rem #97979775, inset -0.2rem -0.2rem 0.5rem #f2f2f2;
+  height: 50px;
+  outline: none;
+  padding: 0rem 1rem;
+  font-size: 20px;
+  color: gray;
+}
+
+.otpinput input
+{
+  padding: auto !important;
+}
+
+.otpinput
+{
+ align-items: center;
+ display: flex;
+}
+.otpinput h5
+{
+ white-space: pre;
+ color: gray;
+}
+
+.userimgs
+{
+  position: relative;
+}
+
+.userimgs input
+{
+position: absolute;
+display: none;
+opacity: 0;
+}
+
+.titlesmall
+{
+  box-shadow: 0.3rem 0.3rem 0.6rem #bfbfbf, -0.2rem -0.2rem 0.5rem #fff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.update_profile .imgbox
+{
+  margin-right: 0px !important;
+}
+.titleicon
+{
+    margin-right: 10px;
+    z-index: 100;
+    margin-left: -10px;
+    background: white;
+    box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #929292;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.update_profile h3
+{
+  font-size: 3rem;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: -16px;
+}
+
+.buttonsubmit  .btnsubmit {
+    width: 126px;
+    border-color: #1cc699;
+    background: #1cc699;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.buttonsubmit  .w-btn-white {
+  background: #ffffff;
+  color: #1cc699;
+  border-color: #1cc699;
+  font-size: 25px;
+  font-weight: 400;
+}
+.buttonsubmit .w-btn-white::after {
+  background: #1cc699;
+}
+
+.buttonsubmit .w-btn:hover {
+  color: #1cc598;
+}
+
+.otpinput input
+{
+  text-align: center;
+}
+
+.mobile_btn .btn-primary
+{
+  box-shadow: 0.3rem 0.3rem 0.6rem #43434459, -0.2rem -0.2rem 0.5rem #70707042;
+  border-radius: 50%;
+  padding: 7px 13px;
+  background-color: #ffff !important;
+  border: none;
+  background: white;
+  color: black;
+  width: 38px;
+  height: 37px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
