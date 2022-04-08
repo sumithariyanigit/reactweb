@@ -74,7 +74,7 @@ function Footer() {
                         <div className="footer__widget-content">
                            <div className="footer__link footer__link-2">
                               <ul>
-                                 <li><Link to='/'>About us</Link></li>
+                                 <li><Link to='/about'>About us</Link></li>
                                  <li><Link to='/'>Customer Service</Link></li>
                                  <li><Link to='/'>Company</Link></li>
                               </ul>
@@ -93,7 +93,7 @@ function Footer() {
                                  <li><Link to='/'>Shopping Guide</Link></li>
                                  <li><Link to='/'>Blog</Link></li>
                                  <li><Link to='/'>Company</Link></li>
-                                 <li><Link to='/'>Contact Us</Link></li>
+                                 <li><Link to='/contact'>Contact Us</Link></li>
                               </ul>
                            </div>
                            <img src={process.env.PUBLIC_URL + '/assets/images/logo.png'} alt="" style={{'maxWidth' : '150px'}} /> 

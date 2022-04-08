@@ -24,6 +24,7 @@ import Terms from "./Terms";
 import PreviousBooking from "./PreviousBooking";
 import TotalPayment from "./TotalPayment";
 import YourReviews from "./YourReviews";
+import ScrollToTop from "./ScrollToTop";
 
 
 
@@ -32,6 +33,7 @@ import YourReviews from "./YourReviews";
 const Routing = () => {
   return(
     <Router>
+       <ScrollToTop />
       <Header />
       <Switch>
         <Route exact path="/" component={App} />
