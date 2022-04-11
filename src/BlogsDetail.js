@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import Related_blogs from './Components/Related_blogs';
 import Download_app from './Components/Download_app';
 
-function Blogs() {
+function BlogsDetail() {
 return (
     <>
 
@@ -63,4 +63,4 @@ return (
   );
 }
 
-export default Blogs;
+export default BlogsDetail;

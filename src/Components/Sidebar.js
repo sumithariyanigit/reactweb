@@ -21,7 +21,7 @@ function Sidebar() {
                         <div className="sd-body">
                             <ul>
                             <li><NavLink onClick={Sidebar}  className="sd-link" activeclassname="active " to='/about'>About</NavLink ></li>
-                              <li><NavLink onClick={Sidebar} className="sd-link"  to='/blogs'>Blog</NavLink ></li>
+                              <li><NavLink onClick={Sidebar} className="sd-link"  to='/blog-list'>Blogs</NavLink ></li>
                               <li><NavLink onClick={Sidebar} className="sd-link"  to='/packages'>Packages</NavLink ></li>
                               <li><NavLink onClick={Sidebar} className="sd-link"  to='/contact'>Contact Us</NavLink ></li>
                               <li><NavLink onClick={Sidebar} className="sd-link"  to='/login'>Login / Sign up</NavLink ></li>

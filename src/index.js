@@ -8,7 +8,7 @@ import Footer from './Footer'
 // Iron Gate Cleaning Services Pages
 import App from './App';
 import About from './About'
-import Blogs from "./Blogs";
+import BlogsDetail from "./BlogsDetail";
 import Packages from "./Packages";
 import PackageDetail from "./PackageDetail";
 import BookPackage from "./BookPackage";
@@ -26,7 +26,7 @@ import TotalPayment from "./TotalPayment";
 import YourReviews from "./YourReviews";
 import ScrollToTop from "./ScrollToTop";
 import UpdateProfile from "./UpdateProfile";
-
+import BlogList from "./BlogList";
 
 
 
@@ -44,7 +44,7 @@ const Routing = () => {
         <Route exact path="/" component={App} />
         <Route exact path="/home" component={App} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/blogs" component={Blogs} />
+        <Route exact path="/blog-detail" component={BlogsDetail} />
         <Route exact path="/packages" component={Packages} />
         <Route exact path="/Package-detail" component={PackageDetail} />
         <Route exact path="/boook-package" component={BookPackage} />
@@ -60,7 +60,8 @@ const Routing = () => {
         <Route exact path="/previous-booking" component={PreviousBooking} />
         <Route exact path="/total-payment" component={TotalPayment} />
         <Route exact path="/your-reviews" component={YourReviews} />
-        <Route exact patth="/update-profile" component={UpdateProfile} />
+        <Route exact path="/update-profile" component={UpdateProfile} />
+        <Route exact path="/blog-list" component={BlogList} />
       </Switch>
       <Footer />
     </Router>

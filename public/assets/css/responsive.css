@@ -423,6 +423,29 @@ margin-bottom: 20px;
     left: 0;
     background: #272626;
 }
+.blog_list_style {
+    padding: 2rem 0rem;
+    display: inline-flex;
+    flex-flow: wrap;
+}
+
+.blog_list_style li
+{
+    width: 47%;
+    margin: 0.3rem;
+    padding: 0.8rem;
+}
+
+.blog_list_style li h5
+{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.blog_list_style li p {
+    font-size: 15px;
+    line-height: 17px;
+}
+
 
 
 
