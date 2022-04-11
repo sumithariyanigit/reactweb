@@ -13374,3 +13374,44 @@ opacity: 0;
   justify-content: center;
 }
 
+
+.blog_list_style li
+{
+  display: inline-block;
+  border: 2px solid #ddd;
+  padding: 1.1rem;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 31.3%;
+  margin: 0.6rem;
+}
+.blog_list_style li:hover img
+{
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+.blog_list_style li img
+{
+  width: 100%;
+  transition: 0.3s;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+.blog_list_style li h5
+{
+  font-size: 22px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  color: black;
+}
+.blog_list_style li p
+{
+  font-size: 16px;
+  margin-top: 3px;
+  color: black;
+  font-weight: 400;
+}
+.blog_list_style
+{
+  padding: 4rem 0rem;
+}
