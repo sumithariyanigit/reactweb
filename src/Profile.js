@@ -24,7 +24,7 @@ function Profile() {
              <img src={process.env.PUBLIC_URL + '/assets/images/profile.png'} />
              </div>
              <div className=''>
-             <Link to='/UpdateProfile'><h4>John pauls</h4></Link>
+             <Link to='/update-profile'><h4>John pauls</h4></Link>
              <div className="certified"><i className="fad fa-badge-check"></i> certified user</div>
              </div>          
          </div>
